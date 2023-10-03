@@ -19,7 +19,7 @@ app = dash.Dash(
 server = app.server
 
 # ================Ingestão de dados ============#
-df_data = pd.read_csv(r"C:\Users\luigi\OneDrive\Documentos\DATA\Data_Science\ASIMOV\Dashboards Interativos com Python\Projetos\Dashboards\Supermarket Sales\supermarket_sales.csv")
+df_data = pd.read_csv(r"C:\Users\luigi\OneDrive\Documentos\DATA\Data_Science\ASIMOV\Dashboards Interativos com Python\Projetos\Dashboards\Supermarket Sales- Render\assets\supermarket_sales.csv")
 #df_data.head(5)
 
 #transformando a coluna date de object para datetime
